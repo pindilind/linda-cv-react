@@ -34,13 +34,32 @@ export default function OutlinedButtons() {
                 <Button style={buttons} variant="contained" color="primary" disableElevation>
                     Tidigare Yrken
                 </Button>
-            </Link> 
+            </Link>
 
             <Link style={linkBtn} to="/kontakt">
                 <Button style={buttons} variant="contained" color="primary" disableElevation>
                     Kontakt
                 </Button>
             </Link>
+
+            <div style={conDiv}>
+                <Link style={linkBtn} to="/skolprojekt">
+                    <Button style={buttons} variant="contained" color="primary" disableElevation>
+                        Projekt i skolan
+                    </Button>
+                </Link>
+
+                <Link style={linkBtn} to="/fotografier">
+                    <Button style={buttons} variant="contained" color="primary" disableElevation>
+                        Fotogalleri
+                    </Button>
+                </Link> 
+
+                <Link style={linkBtn} to="/fotografier">
+                    <Button style={buttons} variant="contained" color="primary" disableElevation>:)</Button>
+                </Link> 
+
+            </div>
 
         </div>
     );
@@ -57,5 +76,12 @@ const buttons: React.CSSProperties = {
 }
 
 const btnDiv: React.CSSProperties = {
-    maxWidth: '375px'
+    maxWidth: '375px',
+    marginTop: '-1.5rem'
+}
+
+const conDiv: React.CSSProperties = {
+    maxWidth: '375px',
+    justifyContent: 'center',
+    alignItems: 'center'
 }
