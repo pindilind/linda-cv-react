@@ -13,7 +13,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Skolprojekt from '../skolprojekt.png'
-
+import Blomsterslanten from '../blomsterslanten.png'
 
 export default function ImgMediaCard() {
 
@@ -112,6 +112,18 @@ export default function ImgMediaCard() {
                         </text>
                     </Typography>
 
+                    <img style={selfieStyle} src={Blomsterslanten} alt="Selfie" /> 
+                    <Typography gutterBottom variant="h5" component="h2">
+                        BlomsterSLANTen
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                        <text>
+                            Ett projekt tillsammans med några i klassen. <br />
+
+                            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                        </text>
+                    </Typography>
+
                     {/* <img style={selfieStyle} src={Ty} alt="Selfie" /> */}
                     <Typography gutterBottom variant="h5" component="h2">
                         React Quiz
@@ -147,7 +159,7 @@ const cardStyle: React.CSSProperties = {
 
 const selfieStyle: React.CSSProperties = {
     objectFit: 'cover',
-    maxWidth: '360px'
+    maxWidth: '330px'
 }
 
 const btnStyle: React.CSSProperties = {

@@ -1,17 +1,24 @@
 import React from 'react';
 import SpButtons from './spbuttons';
-
+import CustomizedSwitches from './toggle';
+import { ThemedCSSProperties, ThemeContext } from './contexts/themeContext';
 
 
 export default function StartPage() {
     return (
-        <div style={parentDiv}>
-            <div style={pStyle}><p>söker prakikplats!</p></div>
-            <div style={StartPageStyle}>
-                <p style={hStyle}>LINDA GUSTAFSSON</p>
-                <SpButtons />
-            </div>
-        </div>
+        <ThemeContext.Consumer>
+            {({ theme }) => (
+                <div style={{ ...parentDiv, ...background(theme) }}>
+                    <div style={messegeStyle}><p>Sidan är under uppbyggnad :) </p></div>
+                    <div style={pStyle}><p>söker prakikplats!</p></div>
+                    <div style={StartPageStyle}>
+                        <p style={hStyle}>LINDA GUSTAFSSON</p>
+                        <SpButtons />
+                        <CustomizedSwitches />
+                    </div>
+                </div>
+            )}
+        </ThemeContext.Consumer>
     )
 }
 
@@ -42,6 +49,18 @@ const pStyle: React.CSSProperties = {
     fontFamily: 'Dawning of a New Day',
     fontSize: '40px',
     color: '#395231',
-
-
 }
+
+const messegeStyle: React.CSSProperties = {
+    fontFamily: 'Dawning of a New Day',
+    fontSize: '40px',
+    color: '#395231',
+    marginBottom: '-40px',
+    marginTop: '-130px'
+}
+
+const background: ThemedCSSProperties = (theme) => ({
+    background: theme.background.secondary,
+    color: theme.foreground.primary
+})
+

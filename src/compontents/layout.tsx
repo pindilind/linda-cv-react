@@ -1,7 +1,8 @@
 import {
     BrowserRouter as Router,
     Switch,
-    Route} from "react-router-dom";
+    Route
+} from "react-router-dom";
 
 import React from 'react';
 import DenseAppBar from './navbar';
@@ -11,46 +12,55 @@ import TidigareYrken from './tidigareYrken';
 import Skolprojekt from './skolprojekt';
 import Fotografier from './fotografier';
 import Kontakt from './kontakt';
+import { ThemedCSSProperties, ThemeContext } from './contexts/themeContext';
 
 
 export default function Layout() {
     return (
-        <div style={backgrounC}> 
-            {/* <DenseAppBar /> */}
-            <Router>
+
+        <ThemeContext.Consumer>
+            {({ theme }) => (
+                <div style={{ ...background(theme) }}>
+                    {/* <DenseAppBar /> */}
+                    <Router>
                         <Switch>
                             <Route exact path="/">
                                 <StartPage />
                             </Route>
-                        
+
                             <Route exact path="/omMig">
-                                <OmMig/>
+                                <OmMig />
                             </Route>
 
                             <Route path="/tidigareYrken">
-                                <TidigareYrken/>
+                                <TidigareYrken />
                             </Route>
 
                             <Route path="/kontakt">
-                                <Kontakt/>
+                                <Kontakt />
                             </Route>
 
                             <Route path="/fotografier">
-                                <Fotografier/>
+                                <Fotografier />
                             </Route>
 
                             <Route path="/skolprojekt">
-                                <Skolprojekt/>
+                                <Skolprojekt />
                             </Route>
 
-                </Switch>
-                        
-            </Router>
+                        </Switch>
 
-        </div>
+                    </Router>
+
+                </div>
+
+            )}
+        </ThemeContext.Consumer>
     )
-}
+} 
 
-const backgrounC: React.CSSProperties = {
-    
-  }
+const background: ThemedCSSProperties = (theme) => ({
+    background: theme.background.secondary,
+    color: theme.foreground.primary
+  })
+  

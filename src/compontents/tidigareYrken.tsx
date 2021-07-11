@@ -33,7 +33,7 @@ export default function ImgMediaCard() {
                 <Link style={linkBtn} to="/omMig">
                     <Button style={btnStyle} variant="contained" color="primary" disableElevation>
                         Om Mig
-                    </Button> 
+                    </Button>
                 </Link>
 
                 <Link style={linkBtn} to="/kontakt">
@@ -58,20 +58,22 @@ export default function ImgMediaCard() {
                     <Typography variant="body2" color="textSecondary" component="p">
                         <text>
 
-                            <b>LOKSLVÅRDARE • JUN 2015 - OKT 2015</b>
-                            <br />Kontorstäd, hemstäd och byggstäd. <br />
-
-                            <br /><b>VOLONTÄRARBETARE • THAILAND • OKT 2015 - DEC 2015</b>
-                            <br />Volontärarbetare på Wildlife friends foundation med elefanter. All skötsel av elefanter och centret<br />
-
-                            <br /><b>RESTURANGBITRÄDE • JAN 2016 - MAR 2016</b>
-                            <br />Restaurangbiträde, huvudsakliga uppgiften var att stå i kassan och hålla ordning i restaurangen.<br />
+                            <b>TRUCKFÖRARE • SEP 2016 - PÅGÅENDE</b>
+                            <br />Tillsvidare anställd som truckförare. Huvudsakliga uppgift är att köra material till banan.<br />
 
                             <br /><b>TRUCKFÖRARE • APR 2016 - SEP 2016</b>
                             <br />Truckförare via rekryteringsfirma.<br />
 
-                            <br /><b>TRUCKFÖRARE • SEP 2016 - PÅGÅENDE</b>
-                            <br />Tillsvidare anställd som truckförare. Huvudsakliga uppgift är att köra material till banan.<br />
+                            <br /><b>RESTURANGBITRÄDE • JAN 2016 - MAR 2016</b>
+                            <br />Restaurangbiträde, huvudsakliga uppgiften var att stå i kassan och hålla ordning i restaurangen.<br />
+
+                            <br /><b>VOLONTÄRARBETARE • THAILAND • OKT 2015 - DEC 2015</b>
+                            <br />Volontärarbetare på Wildlife friends foundation med elefanter. All skötsel av elefanter och centret<br />
+
+                            <br /><b>LOKSLVÅRDARE • JUN 2015 - OKT 2015</b>
+                            <br />Kontorstäd, hemstäd och byggstäd. <br />
+
+
 
                             <br /><b>Specialkompetenser</b><br />
                             B körkort<br />

@@ -8,7 +8,7 @@ import {
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-
+import { ThemedCSSProperties, ThemeContext } from './contexts/themeContext';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -22,46 +22,50 @@ export default function OutlinedButtons() {
     const classes = useStyles();
 
     return (
-        <div style={btnDiv}>
 
-            <Link style={linkBtn} to="/omMig">
-                <Button style={buttons} variant="contained" color="primary" disableElevation>
-                    Om Mig
-                </Button>
-            </Link>
+        <ThemeContext.Consumer>
+            {({ theme }) => (
+                <div style={{...btnDiv, ...background(theme) }}>
 
-            <Link style={linkBtn} to="/tidigareYrken">
-                <Button style={buttons} variant="contained" color="primary" disableElevation>
-                    Tidigare Yrken
-                </Button>
-            </Link>
+                    <Link style={linkBtn} to="/omMig">
+                        <Button style={buttons} variant="contained" color="primary" disableElevation>
+                            Om Mig
+                        </Button>
+                    </Link>
 
-            <Link style={linkBtn} to="/kontakt">
-                <Button style={buttons} variant="contained" color="primary" disableElevation>
-                    Kontakt
-                </Button>
-            </Link>
+                    <Link style={linkBtn} to="/tidigareYrken">
+                        <Button style={buttons} variant="contained" color="primary" disableElevation>
+                            Tidigare Yrken
+                        </Button>
+                    </Link>
 
-            <div style={conDiv}>
-                <Link style={linkBtn} to="/skolprojekt">
-                    <Button style={buttons} variant="contained" color="primary" disableElevation>
-                        Projekt i skolan
-                    </Button>
-                </Link>
+                    <Link style={linkBtn} to="/kontakt">
+                        <Button style={buttons} variant="contained" color="primary" disableElevation>
+                            Kontakt
+                        </Button>
+                    </Link>
 
-                <Link style={linkBtn} to="/fotografier">
-                    <Button style={buttons} variant="contained" color="primary" disableElevation>
-                        Fotogalleri
-                    </Button>
-                </Link> 
+                    <div style={conDiv}>
+                        <Link style={linkBtn} to="/skolprojekt">
+                            <Button style={buttons} variant="contained" color="primary" disableElevation>
+                                Projekt i skolan
+                            </Button>
+                        </Link>
 
-                <Link style={linkBtn} to="/fotografier">
-                    <Button style={buttons} variant="contained" color="primary" disableElevation>:)</Button>
-                </Link> 
+                        <Link style={linkBtn} to="/fotografier">
+                            <Button style={buttons} variant="contained" color="primary" disableElevation>
+                                Fotogalleri
+                            </Button> 
+                        </Link>
 
-            </div>
+                        <Link style={linkBtn} to="/fotografier">
+                            <Button style={buttons} variant="contained" color="primary" disableElevation>:)</Button>
+                        </Link>
 
-        </div>
+                    </div>
+                </div>
+                 )}
+                 </ThemeContext.Consumer>
     );
 }
 
@@ -77,7 +81,8 @@ const buttons: React.CSSProperties = {
 
 const btnDiv: React.CSSProperties = {
     maxWidth: '375px',
-    marginTop: '-1.5rem'
+    marginTop: '-1.5rem',
+    padding: '0px'
 }
 
 const conDiv: React.CSSProperties = {
@@ -85,3 +90,9 @@ const conDiv: React.CSSProperties = {
     justifyContent: 'center',
     alignItems: 'center'
 }
+
+const background: ThemedCSSProperties = (theme) => ({
+    background: theme.background.secondary,
+    color: theme.foreground.primary
+  })
+  
