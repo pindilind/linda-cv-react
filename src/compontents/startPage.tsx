@@ -1,14 +1,12 @@
 import React from 'react';
 import SpButtons from './spbuttons';
 import CustomizedSwitches from './toggle';
-import { ThemedCSSProperties, ThemeContext } from './contexts/themeContext';
+/* import { ThemedCSSProperties, ThemeContext } from './contexts/themeContext'; */
 
 
 export default function StartPage() {
     return (
-        <ThemeContext.Consumer>
-            {({ theme }) => (
-                <div style={{ ...parentDiv, ...background(theme) }}>
+                <div style={parentDiv}>
                     <div style={messegeStyle}><p>Sidan är under uppbyggnad :) </p></div>
                     <div style={pStyle}><p>söker prakikplats!</p></div>
                     <div style={StartPageStyle}>
@@ -17,8 +15,6 @@ export default function StartPage() {
                         <CustomizedSwitches />
                     </div>
                 </div>
-            )}
-        </ThemeContext.Consumer>
     )
 }
 
@@ -59,8 +55,9 @@ const messegeStyle: React.CSSProperties = {
     marginTop: '-130px'
 }
 
-const background: ThemedCSSProperties = (theme) => ({
+/* const background: ThemedCSSProperties = (theme) => ({
     background: theme.background.secondary,
     color: theme.foreground.primary
 })
 
+ */

@@ -18,9 +18,7 @@ import { ThemedCSSProperties, ThemeContext } from './contexts/themeContext';
 export default function Layout() {
     return (
 
-        <ThemeContext.Consumer>
-            {({ theme }) => (
-                <div style={{ ...background(theme) }}>
+                <div>
                     {/* <DenseAppBar /> */}
                     <Router>
                         <Switch>
@@ -53,14 +51,11 @@ export default function Layout() {
                     </Router>
 
                 </div>
-
-            )}
-        </ThemeContext.Consumer>
     )
 } 
 
-const background: ThemedCSSProperties = (theme) => ({
+/* const background: ThemedCSSProperties = (theme) => ({
     background: theme.background.secondary,
     color: theme.foreground.primary
   })
-  
+   */
