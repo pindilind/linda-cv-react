@@ -23,9 +23,7 @@ export default function OutlinedButtons() {
 
     return (
 
-        <ThemeContext.Consumer>
-            {({ theme }) => (
-                <div style={{...btnDiv, ...background(theme) }}>
+                <div style={btnDiv}>
 
                     <Link style={linkBtn} to="/omMig">
                         <Button style={buttons} variant="contained" color="primary" disableElevation>
@@ -64,8 +62,7 @@ export default function OutlinedButtons() {
 
                     </div>
                 </div>
-                 )}
-                 </ThemeContext.Consumer>
+                
     );
 }
 
@@ -91,8 +88,8 @@ const conDiv: React.CSSProperties = {
     alignItems: 'center'
 }
 
-const background: ThemedCSSProperties = (theme) => ({
+/* const background: ThemedCSSProperties = (theme) => ({
     background: theme.background.secondary,
     color: theme.foreground.primary
   })
-  
+   */
