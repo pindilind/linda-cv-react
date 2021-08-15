@@ -14,6 +14,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Skolprojekt from '../skolprojekt.png'
 import Blomsterslanten from '../blomsterslanten.png'
+import Netflix from '../netflix.png'
 
 export default function ImgMediaCard() {
 
@@ -64,13 +65,14 @@ export default function ImgMediaCard() {
 
 
 
-                    {/* <img style={selfieStyle} src={Ty} alt="Selfie" /> */}
+                    <img style={schoolPic} src={Netflix} alt="Selfie" />
                     <Typography gutterBottom variant="h5" component="h2">
                         Startpage-Netflix
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         <text>
-                            Ett försök att efterlikna Netflix startsida.<br />
+                            Ett försök att efterlikna Netflix startsida i html/CSS<br />
+
 
                             - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                         </text>
@@ -112,7 +114,7 @@ export default function ImgMediaCard() {
                         </text>
                     </Typography>
 
-                    <img style={selfieStyle} src={Blomsterslanten} alt="Selfie" /> 
+                    <img style={schoolPic} src={Blomsterslanten} alt="Selfie" /> 
                     <Typography gutterBottom variant="h5" component="h2">
                         BlomsterSLANTen
                     </Typography>
@@ -159,8 +161,14 @@ const cardStyle: React.CSSProperties = {
 
 const selfieStyle: React.CSSProperties = {
     objectFit: 'cover',
+    maxWidth: '360px'
+}
+
+const schoolPic: React.CSSProperties = {
+    objectFit: 'cover',
     maxWidth: '330px'
 }
+
 
 const btnStyle: React.CSSProperties = {
     fontSize: '9px',
