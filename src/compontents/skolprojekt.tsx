@@ -15,6 +15,7 @@ import Typography from '@material-ui/core/Typography';
 import Skolprojekt from '../skolprojekt.png'
 import Blomsterslanten from '../blomsterslanten.png'
 import Netflix from '../netflix.png'
+import Horoscope from '../horoscope.png';
 
 export default function ImgMediaCard() {
 
@@ -59,7 +60,7 @@ export default function ImgMediaCard() {
 
                     <Typography variant="body2" color="textSecondary" component="p">
                         <text>
-                            TEXT
+                            Här har jag samlat grupparbeten och individuella projekt.<br />
                         </text>
                     </Typography>
 
@@ -78,7 +79,7 @@ export default function ImgMediaCard() {
                         </text>
                     </Typography>
 
-                    {/* <img style={selfieStyle} src={Ty} alt="Selfie" /> */}
+                     {/* <img style={selfieStyle} src={Horoscope} alt="Selfie" /> */}
                     <Typography gutterBottom variant="h5" component="h2">
                         Horoscope
                     </Typography>
@@ -108,7 +109,7 @@ export default function ImgMediaCard() {
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         <text>
-                            Ett projekt tillsammans med några i klassen. <br />
+                        kfplgk<br />
 
                             - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                         </text>
@@ -120,7 +121,8 @@ export default function ImgMediaCard() {
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         <text>
-                            Ett projekt tillsammans med några i klassen. <br />
+                        Vår gruppuppgift var att skapa en e-shop för valfri produkt och ett eget skapat tema i Wordpress och med plugin Woocommerce.<br />
+                            <a target="_blank" href="https://github.com/Tim-bitz/slant">Länk till repo</a><br />
 
                             - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                         </text>
