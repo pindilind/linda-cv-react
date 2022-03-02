@@ -56,10 +56,6 @@ export default function OutlinedButtons() {
                             </Button> 
                         </Link>
 
-                        <Link style={linkBtn} to="/fotografier">
-                            <Button style={buttons} variant="contained" color="primary" disableElevation>:)</Button>
-                        </Link>
-
                     </div>
                 </div>
                 
