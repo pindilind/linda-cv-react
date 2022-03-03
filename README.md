@@ -1,3 +1,3 @@
-![Alt Text](https://giphy.com/embed/48FhEMYGWji8)
+![](https://giphy.com/embed/48FhEMYGWji8)
 
 
