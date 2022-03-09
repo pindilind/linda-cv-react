@@ -1,6 +1,6 @@
 import React from 'react';
 import SpButtons from './spbuttons';
-import CustomizedSwitches from './toggle';
+
 /* import { ThemedCSSProperties, ThemeContext } from './contexts/themeContext'; */
 
 
@@ -12,7 +12,7 @@ export default function StartPage() {
                     <div style={StartPageStyle}>
                         <p style={hStyle}>LINDA GUSTAFSSON</p>
                         <SpButtons />
-                        <CustomizedSwitches />
+                      
                     </div>
                 </div>
     )

@@ -62,7 +62,7 @@ export default function School() {
 
     <>
       <button className="button1" onClick={handleOpen}>
-        Min Utbildning
+        My Education
       </button>
       <Modal
         keepMounted

@@ -8,12 +8,21 @@ import "../styles/Stars.scss";
 
 export default function Header() {
   return (
-    
-   <div className="header">
-     <div className="stars"></div>
-     <h1>HELLO, MY NAME IS <span>LINDA</span> AND I'M A FUTURE WEB DEVELOPER <TiHeart /> </h1>
-     <div className="arrow bounce"><FaArrowDown /></div>
-     </div>
-    
+
+    <div className="header">
+      <div className="stars"></div>
+
+      <h4>Hello, my name is</h4>
+      <h1><span>Linda Gustafsson</span></h1>
+      <div className="andImDiv">
+        <div><h3>And I'm a </h3></div>
+        <div><h2> Developer, Designer and a Student</h2></div>
+      </div>
+
+      <h4 className="futureCollege">Maybe I'm your future colleague?</h4>
+
+      <div className="arrow bounce"><FaArrowDown /></div>
+    </div>
+
   );
 }

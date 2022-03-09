@@ -13,24 +13,80 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  h1 {
+  h4 {
     margin-top: 10rem;
+    max-width: 75%;
+    text-align: start;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    margin: 0;
     max-width: 75%;
     text-align: center;
     color: white;
     font-family: 'Montserrat';
-    font-size: 3rem;
+    font-size: 2.8rem;
+    margin-bottom: 0;
 
     span {
       display: inline-block;
       color: #FC0A9D;
       font-size: 3.5rem;
     }
+  }
+
+  .andImDiv {
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+    h3 {
+      text-align: center;
+      color: white;
+      font-family: 'Montserrat';
+      font-size: 1.5rem;
+    }
+      h2 {
+        font-size: 1.5rem;
+        padding: 4px 12px;
+        font-family: 'Montserrat';
+        color: #FC0A9D;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 3s steps(13) infinite alternate;
+        border-right: 2px solid white;
+      }
+      @keyframes typewriter {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 102%;
+        }
+      
+     
+    }
 
   }
 
+
+  .futureCollege {
+    display: inline-block;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+    margin-top: 1rem;
+  }
+
   .arrow {
-    margin-top: 10rem;
+    margin-top: 8rem;
     color: white;
     font-size: 2rem;
   }
@@ -58,6 +114,10 @@
     60% {
       transform: translateY(-15px);
     }
+  }
+
+  .container {
+    display: inline-block;
   }
 
 }

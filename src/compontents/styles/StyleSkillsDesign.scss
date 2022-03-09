@@ -1,0 +1,181 @@
+.skillDesign {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  font-family: 'Montserrat';
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #282623;
+
+  .skillDivDesign {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .text-content-skill-design {
+      margin-top: 10rem;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 40%;
+
+      .btnDiv-design {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      }
+    }
+
+    .skillRatesDiv-design {
+      margin-top: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 50%;
+
+      .info-design {
+        width: 90%;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+
+      }
+
+      .line6 {
+        background: linear-gradient(to right,
+            #FC0A9D 0%,
+            #FC0A9D 40%,
+            #282623 40%,
+            #282623 100%);
+        width: 95%;
+        height: 30%;
+        width: 90%;
+        display: flex;
+        margin-bottom: 5px;
+        align-self: center;
+        justify-content: space-between;
+      }
+
+      .line7 {
+        background: linear-gradient(to right,
+            #FC0A9D 0%,
+            #FC0A9D 50%,
+            #282623 50%,
+            #282623 100%);
+        width: 95%;
+        height: 30%;
+        width: 90%;
+        display: flex;
+        margin-bottom: 5px;
+        align-self: center;
+        justify-content: space-between;
+      }
+
+      .line8 {
+        background: linear-gradient(to right,
+            #FC0A9D 0%,
+            #FC0A9D 45%,
+            #282623 45%,
+            #282623 100%);
+        width: 95%;
+        height: 30%;
+        width: 90%;
+        display: flex;
+        margin-bottom: 5px;
+        align-self: center;
+        justify-content: space-between;
+      }
+
+      .line9 {
+        background: linear-gradient(to right,
+            #FC0A9D 0%,
+            #FC0A9D 20%,
+            #282623 20%,
+            #282623 100%);
+        width: 95%;
+        height: 30%;
+        width: 90%;
+        display: flex;
+        margin-bottom: 5px;
+        align-self: center;
+        justify-content: space-between;
+      }
+
+      .line10 {
+        background: linear-gradient(to right,
+            #FC0A9D 0%,
+            #FC0A9D 35%,
+            #282623 35%,
+            #282623 100%);
+        width: 95%;
+        height: 30%;
+        width: 90%;
+        display: flex;
+        margin-bottom: 5px;
+        align-self: center;
+        justify-content: space-between;
+      }
+
+    }
+  }
+}
+
+.button1 {
+  display: inline-block;
+  background-color: #FC0A9D;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+.button1:hover {
+  color: white;
+  /* color: #FC0A9D; */
+  background-color: #282623;
+}
+
+
+@media screen and (max-width: 480px) {
+  .aboutMeDiv {
+
+    .aboutMeDivTwo {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      .text-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0.8rem;
+        margin: auto;
+      }
+
+      .profile-pic-div {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+        #selfie {
+          width: 30%;
+        }
+
+      }
+    }
+
+  }
+}
