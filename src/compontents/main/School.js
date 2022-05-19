@@ -6,26 +6,8 @@ import "../styles/StyleAboutMe.scss";
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
-  styleDiv: {
-    borderRadius: '5px',
-    backgroundColor: '#282623',
-    display: "flex",
-    overflow: 'auto',
-    maxWidth: '50%',
-    boxShadow: "none",
-    marginTop: '2rem',
-    padding: '1',
-    margin: 'auto',
-    fontFamily: 'Montserrat',
-    flexDirection: 'column',
-    padding: '1rem',
-    height: '60%',
-
-    '@media (max-width: 480px)': {
-      minWidth: '90%',
-      marginTop: '4rem',
-      padding: '0.5rem',
-    }
+  top: {
+    marginTop: '5rem'
   },
   styleH3: {
     textAlign: 'center',
@@ -44,6 +26,11 @@ const useStyles = makeStyles({
       fontSize: '0.8'
     }
   },
+  aStyle: {
+    textDecoration: 'none',
+    color: '#FC0A9D',
+    wordBreak: 'break-word',
+  }
 
 });
 
@@ -65,26 +52,29 @@ export default function School() {
         My Education
       </button>
       <Modal
+        className={classes.top}
         keepMounted
         open={open}
         onClose={handleClose}
       >
-        <div className={classes.styleDiv}>
-          <h3 className={classes.styleH3}>Min Utbildning</h3>
+        <div className={'scroll'} id={'styleDivAbout'}>
+          <h3 className={classes.styleH3}>My Education</h3>
           <p className={classes.pStyle}>
 
             <text>
 
-              <b>Utbildningen är en Yh-utbildning på 2 år och 400 Yh-poäng och innehållet är bland annat:</b> <br />
-              <br />- Front- och backendutveckling(HTML5, CSS3, Javascript, JQuery, React, Vue, JSON och SQL) inklusive responsivitet <br />
+              <b> The education is a Yh education of 2 years and 400 Yh points and the content is, among other things: </b> <br />
+              <br /> - Front and backend development (HTML5, CSS3, Javascript, JQuery, React, Vue, JSON and SQL) including responsiveness <br />
 
-              <br />- Systemutveckling - PHP, objekt- och funktionsorienterad programmering, testning, server miljö och serverteknik <br />
+              <br /> - System development - PHP, object- and function-oriented programming, testing, server environment and server technology <br />
 
-              <br />- E-handel - hur man organiserar en e-handel med dagens krav och utveckling mot någon av de vanligaste e-handelssystem <br />
+              <br /> - E-commerce - how to organize an e-commerce with today's requirements and development towards one of the most common e-commerce systems <br />
 
-              <br />-Systemstöd och tredjepartssystem med betal- och affärssystem samt logistik inom e-handel <br />
+              <br /> -System support and third-party systems with payment and business systems as well as logistics in e-commerce <br />
 
-              <br />- LIA / Praktik på företag inom branschen, ungefär en tredjedel av studietiden. <br />
+              <br /> - LIA / Internship at companies in the industry, approximately one third of the study period. <br />
+
+              <br /> Do you want to read more about my school and education? <a className={classes.aStyle} href="https://medieinstitutet.se/utbildningar/webbutvecklare-inom-e-handel/"> Click here</a><br />
 
             </text>
 

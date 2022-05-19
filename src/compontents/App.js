@@ -4,8 +4,9 @@ import Header from "./header/Header";
 import AboutMe from "./main/AboutMe";
 import Skills from "./main/Skills";
 import SkillDesign from "./main/DesignSkills";
-import Footer from "./footer/Footer";
 import ImgGallery from "./main/ImgGallery";
+import Footer from "./footer/Footer";
+
 
 
 export default function App() {
@@ -15,8 +16,8 @@ export default function App() {
    <AboutMe />
    <Skills />
    <SkillDesign />
-   {/* <ImgGallery /> */}
-  {/*  <Footer /> */}
+   <ImgGallery />
+   <Footer />
    </>
     
   );

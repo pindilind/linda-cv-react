@@ -49,10 +49,10 @@
 
       .line6 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 40%,
-            #282623 40%,
-            #282623 100%);
+        rgb(49, 53, 71) 0%,
+        rgb(49, 53, 71) 40%,
+        rgba(108, 114, 139, 0.61) 40%,
+        rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
         height: 30%;
         width: 90%;
@@ -64,10 +64,10 @@
 
       .line7 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 50%,
-            #282623 50%,
-            #282623 100%);
+        rgb(49, 53, 71) 0%,
+        rgb(49, 53, 71) 50%,
+        rgba(108, 114, 139, 0.61) 50%,
+        rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
         height: 30%;
         width: 90%;
@@ -79,10 +79,10 @@
 
       .line8 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 45%,
-            #282623 45%,
-            #282623 100%);
+        rgb(49, 53, 71) 0%,
+        rgb(49, 53, 71) 45%,
+        rgba(108, 114, 139, 0.61) 45%,
+        rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
         height: 30%;
         width: 90%;
@@ -94,10 +94,10 @@
 
       .line9 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 20%,
-            #282623 20%,
-            #282623 100%);
+        rgb(49, 53, 71) 0%,
+        rgb(49, 53, 71) 20%,
+        rgba(108, 114, 139, 0.61)20%,
+        rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
         height: 30%;
         width: 90%;
@@ -109,10 +109,10 @@
 
       .line10 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 35%,
-            #282623 35%,
-            #282623 100%);
+        rgb(49, 53, 71) 0%,
+        rgb(49, 53, 71) 35%,
+        rgba(108, 114, 139, 0.61) 35%,
+        rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
         height: 30%;
         width: 90%;
@@ -128,7 +128,7 @@
 
 .button1 {
   display: inline-block;
-  background-color: #FC0A9D;
+  background-color: rgb(49, 53, 71);
   padding: 0.35em 1.2em;
   margin: 0 0.3em 0.3em 0;
   border-radius: 1rem;
@@ -143,8 +143,10 @@
 .button1:hover {
   color: white;
   /* color: #FC0A9D; */
-  background-color: #282623;
+  background-color: rgba(108, 114, 139, 0.61);
 }
+
+
 
 
 @media screen and (max-width: 480px) {

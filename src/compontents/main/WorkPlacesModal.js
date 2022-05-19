@@ -6,27 +6,9 @@ import "../styles/StyleAboutMe.scss";
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
-  styleDiv: {
-    borderRadius: '5px',
-    backgroundColor: '#282623',
-    display: "flex",
-    overflow: 'auto',
-    maxWidth: '50%',
-    boxShadow: "none",
-    marginTop: '2rem',
-    padding: '1',
-    margin: 'auto',
-    fontFamily: 'Montserrat',
-    flexDirection: 'column',
-    padding: '1rem',
-    height: '60%',
-
-    '@media (max-width: 480px)': {
-      minWidth: '90%',
-      marginTop: '4rem',
-      padding: '0.5rem',
-    }
-  },
+top: {
+  marginTop: '5rem'
+},
   styleH3: {
     textAlign: 'center',
     color: 'white',
@@ -64,43 +46,44 @@ export default function WorkplacesModal() {
         More About Me
       </button>
       <Modal
+      className={classes.top}
         keepMounted
         open={open}
         onClose={handleClose}
       >
-        <div className={classes.styleDiv}>
-          <h3 className={classes.styleH3}>Tidigare Yrken</h3>
+        <div className={'scroll'} id={'styleDiv'}>
+          <h3 className={classes.styleH3}>Previous Occupations</h3>
           <p className={classes.pStyle}>
 
             <text>
 
-              <b>TRUCKFÖRARE • SEP 2016 - PÅGÅENDE</b>
-              <br />Tillsvidare anställd som truckförare. Huvudsakliga uppgift är att köra material till banan.<br />
+              <b> TRUCK DRIVER • SEP 2016 - ONGOING </b>
+              <br /> Permanently employed as a truck driver. The main task is to drive material to the track. <br />
 
-              <br /><b>TRUCKFÖRARE • APR 2016 - SEP 2016</b>
-              <br />Truckförare via rekryteringsfirma.<br />
+              <br /> <b> TRUCK DRIVER • APR 2016 - SEP 2016 </b>
+              <br /> Truck driver via recruitment company. <br />
 
-              <br /><b>RESTURANGBITRÄDE • JAN 2016 - MAR 2016</b>
-              <br />Restaurangbiträde, huvudsakliga uppgiften var att stå i kassan och hålla ordning i restaurangen.<br />
+              <br /> <b> RESTORATION ASSISTANT • JAN 2016 - MAR 2016 </b>
+              <br /> Restaurant assistant, the main task was to stand at the checkout and keep order in the restaurant. <br />
 
-              <br /><b>VOLONTÄRARBETARE • THAILAND • OKT 2015 - DEC 2015</b>
-              <br />Volontärarbetare på Wildlife friends foundation med elefanter. All skötsel av elefanter och centret<br />
+              <br /> <b> VOLUNTEER WORKERS • THAILAND • OCT 2015 - DEC 2015 </b>
+              <br /> Volunteer worker at Wildlife friends foundation with elephants. All care of elephants and the center <br />
 
-              <br /><b>LOKSLVÅRDARE • JUN 2015 - OKT 2015</b>
-              <br />Kontorstäd, hemstäd och byggstäd. <br />
+              <br /> <b> CLEANER • JUN 2015 - OCT 2015 </b>
+              <br /> Office cleaning, home cleaning and construction cleaning. <br />
 
-              <br /><b>Specialkompetenser</b><br />
-              B körkort<br />
-              Truckkort: A1-A4, B1-B4, D1  <br />
+              <br /> <b> Special competencies </b> <br />
+              B driving license <br />
+              Truck cards: A1-A4, B1-B4, D1 <br />
 
-              <br /><b>Hör gärna av dig om du vill se mitt fullständiga CV.</b><br />
+              <br /> <b> Feel free to contact me if you want to see my full CV. </b> <br />
 
-              <br /><b>Några exempel på erfarenheter:</b><br />
-              <br />- Tiden restaurangbiträde har gjort att jag har fått större känsla för service och gjort mig mer stresstålig.<br />
-              <br />- Tiden som lokalvårdare lärde mig att vara noggrann och samtidigt effektiv. <br />
-              <br />-  Som truckförare har jag lärt mig att bli bättre på planering och att strukturera mitt arbete.<br />
-              <br />-  Jag är en före detta hästtjej, så ansvar är något som varit med mig sedan tidig ålder.<br />
-              <br />-  Perioden i Thailand fick jag sköta om, för mig helt nya djur. Dessutom jag fick ta ansvar för att leda nya grupper människor från alla delar av världen. Volontärresan lärde mig mycket om mig själv och kanske framförallt att jag klarade mer än vad jag hade trott.<br />
+              <br /> <b> Some examples of experiences: </b> <br />
+              <br /> - The time as a restaurant assistant has made me have a greater sense of service and made me more stress-resistant. <br />
+              <br /> - The time as a cleaner taught me to be accurate and effective at the same time. <br />
+              <br /> - As a truck driver, I have learned to get better at planning and structuring my work. <br />
+              <br /> - I am a former horse girl, so responsibility is something that has been with me since an early age. <br />
+              <br /> - The period in Thailand I had to take care of, for me completely new animals. In addition, I got to take responsibility for leading new groups of people from all parts of the world. The volunteer trip taught me a lot about myself and perhaps above all that I managed more than I had thought. <br />
 
             </text>
 

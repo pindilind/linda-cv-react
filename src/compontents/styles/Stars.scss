@@ -1,4 +1,5 @@
-.stars {    
+.stars {
+ /*  margin-top: 3.8rem;   */
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   &:after, &:before {
@@ -6,17 +7,17 @@
       display: block;
       position: absolute;
       top: 0; left: 0; bottom: 0; right: 0;
-      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAABlBMVEVHcEz///+flKJDAAAAAXRSTlMAQObYZgAAAIVJREFUeAHt2SEOwkAQhtFJKuqKRRGOgKzgUMgKRI/G0ZDoacNkN/ue/zJ+/ugBcI+01/EEAGBc04FkP58AVFoi7VaSLAEAAPB/j0hbK678AADMkXbZG03mGA0AAKsP3JgAAGDa88knsuZ8Mp1M6gEAPFtNrtEjtkh7lyRb3/PAWpS0BPgC0PMMdOEjXqoAAAAASUVORK5CYII=');
+      background: url('https://img.freepik.com/free-vector/watercolor-floral-pattern_79603-2274.jpg?t=st=1652981066~exp=1652981666~hmac=c51a0b5ec8a13b7400acb2dbfee0b76c520b9cdc57943ba5c78555761c93d621&w=900');
   }
   &:after {
-      background-size: 150px;
+      background-size: 100%;
       opacity: 0.6;
-      animation: blinkLighter 5s infinite ease-out, rotate-rew 600s infinite linear;
+      animation: blinkLighter 5s infinite ease-out, /* rotate-rew 600s infinite linear */;
   }
   &:before {
-      background-size: 250px;
+    background-size: 100%;
       opacity: 0.4;
-      animation: blink 5s infinite ease-out 2s, rotate 800s infinite linear;
+      animation: blink 5s infinite ease-out 2s, /* rotate 800s infinite linear */;
   }
 }
 
@@ -32,9 +33,9 @@
 }
 @keyframes rotate {
   0% { transform: rotate(0); }
-  100% { transform: rotate(360deg); }
+  100% { transform: rotate(40deg); }
 }
 @keyframes rotate-rew {
   0% { transform: rotate(0); }
-  100% { transform: rotate(-360deg); }
+  100% { transform: rotate(-40deg); }
 }

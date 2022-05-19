@@ -1,17 +1,17 @@
 import React from "react";
 
-import { TiHeart } from "react-icons/ti";
 import { FaArrowDown } from "react-icons/fa";
+
 
 import "../styles/StyleHead.scss";
 import "../styles/Stars.scss";
 
 export default function Header() {
+
   return (
 
     <div className="header">
       <div className="stars"></div>
-
       <h4>Hello, my name is</h4>
       <h1><span>Linda Gustafsson</span></h1>
       <div className="andImDiv">

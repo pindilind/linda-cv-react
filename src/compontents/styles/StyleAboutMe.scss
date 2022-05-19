@@ -47,7 +47,7 @@
 
 .button1 {
   display: inline-block;
-  background-color: #FC0A9D;
+  background-color: rgb(49, 53, 71);
   padding: 0.35em 1.2em;
   border: 0.1em solid #FFFFFF;
   margin: 0 0.3em 0.3em 0;
@@ -60,10 +60,44 @@
   font-size: 1rem;
 }
 
+#styleDiv {
+  border-radius: '5px';
+  background-color: #282623;
+  display: flex;
+  overflow: auto;
+  max-width: 50%;
+  box-shadow: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  margin: auto;
+  font-family: 'Montserrat';
+  flex-direction: column;
+  padding: 1rem;
+  height: 60%;
+}
+
+#styleDivAbout {
+  border-radius: '5px';
+  background-color: #282623;
+  display: flex;
+  overflow: auto;
+  max-width: 50%;
+  box-shadow: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  margin: auto;
+  font-family: 'Montserrat';
+  flex-direction: column;
+  padding: 1rem;
+  height: 60%;
+}
+  
+  
+
 .button1:hover {
   color: white;
   /* color: #FC0A9D; */
-  background-color: #282623;
+  background-color: rgb(49, 53, 71);
 }
 
 
@@ -97,5 +131,16 @@
       }
     }
 
+  }
+
+  #styleDiv {
+    min-width: 90%;
+    margin-top: 4rem;
+    padding: 0.5rem;
+  }
+  #styleDivAbout {
+    min-width: 90%;
+    margin-top: 4rem;
+    padding: 0.5rem;
   }
 }

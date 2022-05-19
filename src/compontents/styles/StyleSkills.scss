@@ -1,7 +1,8 @@
 .skill {
   width: 100vw;
   height: 100vh;
-  background-color: #282623;
+  background-color: rgb(49, 53, 71);
+  /* background-color: #282623; */
   font-family: 'Montserrat';
 
   background-attachment: fixed;
@@ -9,9 +10,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-.skillDesign {
-  background-color: white;
-}
+
+  .skillDesign {
+    background-color: white;
+  }
+
   .skillDiv {
     display: flex;
     flex-direction: row;
@@ -51,8 +54,8 @@
 
       .line1 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 90%,
+        rgba(108, 114, 139, 0.61) 0%,
+        rgba(108, 114, 139, 0.61) 90%,
             white 90%,
             white 100%);
         width: 95%;
@@ -66,8 +69,8 @@
 
       .line2 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 80%,
+        rgba(108, 114, 139, 0.61) 0%,
+        rgba(108, 114, 139, 0.61) 80%,
             white 80%,
             white 100%);
         width: 95%;
@@ -81,8 +84,8 @@
 
       .line3 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 60%,
+        rgba(108, 114, 139, 0.61) 0%,
+        rgba(108, 114, 139, 0.61) 60%,
             white 60%,
             white 100%);
         width: 95%;
@@ -96,8 +99,8 @@
 
       .line4 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 20%,
+        rgba(108, 114, 139, 0.61) 0%,
+        rgba(108, 114, 139, 0.61) 20%,
             white 20%,
             white 100%);
         width: 95%;
@@ -111,8 +114,8 @@
 
       .line5 {
         background: linear-gradient(to right,
-            #FC0A9D 0%,
-            #FC0A9D 35%,
+        rgba(108, 114, 139, 0.61) 0%,
+        rgba(108, 114, 139, 0.61) 35%,
             white 35%,
             white 100%);
         width: 95%;
@@ -130,7 +133,7 @@
 
 .button1 {
   display: inline-block;
-  background-color: #FC0A9D;
+  background-color: rgb(49, 53, 71);
   padding: 0.35em 1.2em;
   margin: 0 0.3em 0.3em 0;
   border-radius: 1rem;
@@ -145,7 +148,7 @@
 .button1:hover {
   color: white;
   /* color: #FC0A9D; */
-  background-color: #282623;
+  background-color: rgba(108, 114, 139, 0.61);
 }
 
 

@@ -1,7 +1,7 @@
 .footer {
   width: 100vw;
   height: 100vh;
-  background-color: #282623;
+  background-color: white;
 
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   h3 {
     max-width: 75%;
     text-align: center;
-    color: white;
+    color: rgb(49, 53, 71);
     font-family: 'Montserrat';
     font-size: 2rem;
     margin-bottom: 0;
@@ -26,14 +26,14 @@
     margin-bottom: 0;
     max-width: 75%;
     text-align: center;
-    color: white;
+    color: rgb(49, 53, 71);
     font-family: 'Montserrat';
     font-size: 1rem;
   }
 
   a {
     text-decoration: none;
-    color: #FC0A9D;
+    color: rgba(108, 114, 139, 0.61);
     word-break: break-word;
   }
 
