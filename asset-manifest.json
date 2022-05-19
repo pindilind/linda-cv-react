@@ -1,32 +1,29 @@
 {
   "files": {
-    "main.js": "/linda-cv-react/static/js/main.24bd9928.chunk.js",
-    "main.js.map": "/linda-cv-react/static/js/main.24bd9928.chunk.js.map",
-    "runtime-main.js": "/linda-cv-react/static/js/runtime-main.66af4d0e.js",
-    "runtime-main.js.map": "/linda-cv-react/static/js/runtime-main.66af4d0e.js.map",
-    "static/js/2.5ed32d1b.chunk.js": "/linda-cv-react/static/js/2.5ed32d1b.chunk.js",
-    "static/js/2.5ed32d1b.chunk.js.map": "/linda-cv-react/static/js/2.5ed32d1b.chunk.js.map",
-    "static/js/3.2ca4e303.chunk.js": "/linda-cv-react/static/js/3.2ca4e303.chunk.js",
-    "static/js/3.2ca4e303.chunk.js.map": "/linda-cv-react/static/js/3.2ca4e303.chunk.js.map",
+    "main.css": "/linda-cv-react/static/css/main.003e1a02.chunk.css",
+    "main.js": "/linda-cv-react/static/js/main.bfba9028.chunk.js",
+    "main.js.map": "/linda-cv-react/static/js/main.bfba9028.chunk.js.map",
+    "runtime-main.js": "/linda-cv-react/static/js/runtime-main.37d6de0c.js",
+    "runtime-main.js.map": "/linda-cv-react/static/js/runtime-main.37d6de0c.js.map",
+    "static/js/2.09da6ffb.chunk.js": "/linda-cv-react/static/js/2.09da6ffb.chunk.js",
+    "static/js/2.09da6ffb.chunk.js.map": "/linda-cv-react/static/js/2.09da6ffb.chunk.js.map",
     "index.html": "/linda-cv-react/index.html",
-    "static/js/2.5ed32d1b.chunk.js.LICENSE.txt": "/linda-cv-react/static/js/2.5ed32d1b.chunk.js.LICENSE.txt",
-    "static/media/PICC.3331c7c8.jpg": "/linda-cv-react/static/media/PICC.3331c7c8.jpg",
-    "static/media/blomsterslanten.9d591252.png": "/linda-cv-react/static/media/blomsterslanten.9d591252.png",
-    "static/media/fotogalleri.8d890f38.png": "/linda-cv-react/static/media/fotogalleri.8d890f38.png",
+    "static/css/main.003e1a02.chunk.css.map": "/linda-cv-react/static/css/main.003e1a02.chunk.css.map",
+    "static/js/2.09da6ffb.chunk.js.LICENSE.txt": "/linda-cv-react/static/js/2.09da6ffb.chunk.js.LICENSE.txt",
+    "static/media/elefant1.1e36e1c8.png": "/linda-cv-react/static/media/elefant1.1e36e1c8.png",
     "static/media/hund1.f6fa5b0b.png": "/linda-cv-react/static/media/hund1.f6fa5b0b.png",
     "static/media/hund2.e4d3b88a.png": "/linda-cv-react/static/media/hund2.e4d3b88a.png",
     "static/media/hund3.ea187f62.png": "/linda-cv-react/static/media/hund3.ea187f62.png",
     "static/media/häst1.798dc0e0.png": "/linda-cv-react/static/media/häst1.798dc0e0.png",
+    "static/media/häst2.4bad9ed6.png": "/linda-cv-react/static/media/häst2.4bad9ed6.png",
     "static/media/katt1.5b41007e.png": "/linda-cv-react/static/media/katt1.5b41007e.png",
     "static/media/katt2.1d5d6241.png": "/linda-cv-react/static/media/katt2.1d5d6241.png",
-    "static/media/kontakt.6c98ac49.png": "/linda-cv-react/static/media/kontakt.6c98ac49.png",
-    "static/media/netflix.f5a6bab5.png": "/linda-cv-react/static/media/netflix.f5a6bab5.png",
-    "static/media/skolprojekt.e9bc6311.png": "/linda-cv-react/static/media/skolprojekt.e9bc6311.png",
-    "static/media/ty.3a6e33b0.png": "/linda-cv-react/static/media/ty.3a6e33b0.png"
+    "static/media/miglo.c669597c.jpg": "/linda-cv-react/static/media/miglo.c669597c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.66af4d0e.js",
-    "static/js/2.5ed32d1b.chunk.js",
-    "static/js/main.24bd9928.chunk.js"
+    "static/js/runtime-main.37d6de0c.js",
+    "static/js/2.09da6ffb.chunk.js",
+    "static/css/main.003e1a02.chunk.css",
+    "static/js/main.bfba9028.chunk.js"
   ]
 }
