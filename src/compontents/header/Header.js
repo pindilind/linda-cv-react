@@ -16,7 +16,7 @@ export default function Header() {
       <h1><span>Linda Gustafsson</span></h1>
       <div className="andImDiv">
         <div><h3>And I'm a </h3></div>
-        <div><h2> Developer, Designer and a Student</h2></div>
+        <div><h2> Developer and a designer</h2></div>
       </div>
 
       <h4 className="futureCollege">Maybe I'm your future colleague?</h4>
