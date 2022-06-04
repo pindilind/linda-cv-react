@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/linda-cv-react/static/css/main.003e1a02.chunk.css",
-    "main.js": "/linda-cv-react/static/js/main.bfba9028.chunk.js",
-    "main.js.map": "/linda-cv-react/static/js/main.bfba9028.chunk.js.map",
+    "main.js": "/linda-cv-react/static/js/main.8391179d.chunk.js",
+    "main.js.map": "/linda-cv-react/static/js/main.8391179d.chunk.js.map",
     "runtime-main.js": "/linda-cv-react/static/js/runtime-main.37d6de0c.js",
     "runtime-main.js.map": "/linda-cv-react/static/js/runtime-main.37d6de0c.js.map",
     "static/js/2.09da6ffb.chunk.js": "/linda-cv-react/static/js/2.09da6ffb.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.37d6de0c.js",
     "static/js/2.09da6ffb.chunk.js",
     "static/css/main.003e1a02.chunk.css",
-    "static/js/main.bfba9028.chunk.js"
+    "static/js/main.8391179d.chunk.js"
   ]
 }
