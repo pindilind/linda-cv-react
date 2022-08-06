@@ -13,13 +13,13 @@ export default function AboutMe() {
 
       <div class="skillDiv">
         <div class="text-content-skill">
-          <h2>Code Skills </h2>
+          <h2 class="textStyle">Programmeringsfärdigheter</h2>
           <p>
-            These are the languages I've learnt so far during my time at Medieinstitutet. The percentages shown on the bars is an estimate of how far my skills have developed in those certain languages to date. This section will be updated regularly as time goes by.
+          Det är de programmen jag har lärt mig hittills under min tid på Medieinstitutet. Procentsatserna som visas på staplarna är en uppskattning av hur långt mina kunskaper har utvecklats i dessa vissa program hittills. Detta avsnitt kommer att uppdateras regelbundet allt eftersom.
           </p>
     
           <div className="btnDiv">
-          <p>Read about my design skills below </p>
+          {/* <p>Read about my design skills below </p> */}
           </div>
         </div>
 

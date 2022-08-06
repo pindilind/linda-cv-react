@@ -11,13 +11,13 @@ export default function AboutMe() {
 
       <div class="skillDivDesign">
         <div class="text-content-skill-design">
-          <h2>Design Skills</h2>
+          <h2 class="textStyle">Designfärdigheter</h2>
           <p>
-            These are the programs I've learnt by myself. I've got I think it's fun with design and photography so I've tried to teach myself when I've found time for it.
+          Det är de här programmen jag har lärt mig själv. Jag har fått jag tycker det är roligt med design och fotografering så jag har försökt lära mig när jag har hittat tid för det.
           </p>
     
           <div className="btnDiv-design">
-          <p>Read about my design skills below </p>
+           <p> </p>
           </div>
         </div>
 

@@ -39,3 +39,48 @@
   0% { transform: rotate(0); }
   100% { transform: rotate(-40deg); }
 }
+
+@media screen and (max-width: 480px) {
+  .stars {
+    /*  margin-top: 3.8rem;   */
+     position: absolute;
+     top: 0; right: 0; bottom: 0; left: 0;
+     &:after, &:before {
+         content: "";
+         display: block;
+         position: absolute;
+         top: 0; left: 0; bottom: 0; right: 0;
+         background: url('https://img.freepik.com/free-vector/watercolor-floral-pattern_79603-2274.jpg?t=st=1652981066~exp=1652981666~hmac=c51a0b5ec8a13b7400acb2dbfee0b76c520b9cdc57943ba5c78555761c93d621&w=900');
+     }
+     &:after {
+         background-size: 100%;
+         opacity: 0.6;
+         animation: blinkLighter 5s infinite ease-out, /* rotate-rew 600s infinite linear */;
+     }
+     &:before {
+       background-size: 100%;
+         opacity: 0.4;
+         animation: blink 5s infinite ease-out 2s, /* rotate 800s infinite linear */;
+     }
+   }
+   
+   @keyframes blink {
+     0% { opacity:  0.4; }
+     50% { opacity: 1; }
+     100% { opacity:  0.4; }
+   }
+   @keyframes blinkLighter {
+     0% { opacity:  0.6; }
+     50% { opacity: 1; }
+     100% { opacity:  0.6; }
+   }
+   @keyframes rotate {
+     0% { transform: rotate(0); }
+     100% { transform: rotate(40deg); }
+   }
+   @keyframes rotate-rew {
+     0% { transform: rotate(0); }
+     100% { transform: rotate(-40deg); }
+   }
+
+}

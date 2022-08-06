@@ -13,15 +13,13 @@ export default function AboutMe() {
 
       <div class="aboutMeDivTwo">
         <div class="text-content">
-          <h2>About Me </h2>
+          <h2 class="textStyle">Om Mig</h2>
           <p>
-            Thinking about what you want to do when you grow up can sometimes be a challenge. But in 2020, I chose to apply to Medieinstitutet in Gothenburg. The choice of my education Web developer in E-commerce is based on the fact that as a child I had an interest in simpler development but also to be creative.
-
-            The interest was born when it became popular to start blogging. My passion was not to write things on the blog, but I discovered that you could develop the page with code, which I did more often than writing something. So here am I today, soon finnsish at studying at Medieinstitutet (May 20/5 2022).
+            Att fundera kring vad man vill göra när man blir stor kan ibland vara en utmaning. Men 2020 valde jag att söka till Medieinstitutet i Göteborg. Valet av min utbildning Webbutvecklare inom E-handel bygger på att jag som barn hade ett intresse av enklare utveckling men också att vara kreativ.
 
           </p>
           <p>
-            In addition to my interest in development. So I like to photograph, edit pictures and interior design but also spend time with my partner and the dog in the woods. Together we have now bought a house, which feels great. There will be some renovation and gardening in the future, which I also think is fun.
+            Utöver mitt intresse för utveckling. Så jag gillar att fotografera, redigera bilder och inredning men umgås också med min sambo och hunden i skogen. Tillsammans har vi nu köpt ett hus vilket känns jättebra. Det kommer att bli en del renovering och trädgårdsarbete i framtiden, vilket jag också tycker är kul.
           </p>
 
           <div className="btnDiv">

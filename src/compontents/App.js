@@ -7,12 +7,18 @@ import SkillDesign from "./main/DesignSkills";
 import ImgGallery from "./main/ImgGallery";
 import Footer from "./footer/Footer";
 
-
+import CookieConsent, { Cookies } from "react-cookie-consent";
 
 export default function App() {
   return (
     <>
     <Header />
+    <CookieConsent
+            debug={true}
+            style={{ background: '#000', fontFamily: 'Gaegu' }}
+            buttonStyle={{ background: '#a4161a', color: '#fff', fontFamily: 'Gaegu' }}
+            buttonText="OK"
+          >Letar du efter en junior utvecklare? Jag är tillgänglig! :) Keep Reading .</CookieConsent>
    <AboutMe />
    <Skills />
    <SkillDesign />

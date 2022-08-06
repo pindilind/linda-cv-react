@@ -1,7 +1,7 @@
 .skill {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(49, 53, 71);
+  background-color: #a4161a;
   /* background-color: #282623; */
   font-family: 'Montserrat';
 
@@ -30,6 +30,12 @@
       flex-direction: column;
       width: 40%;
 
+      .textStyle {
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2rem;
+        color: white;
+      }
+
       .btnDiv {
         display: flex;
         justify-content: center;
@@ -54,8 +60,8 @@
 
       .line1 {
         background: linear-gradient(to right,
-        rgba(108, 114, 139, 0.61) 0%,
-        rgba(108, 114, 139, 0.61) 90%,
+        rgba(171, 171, 173, 0.61) 0%,
+        rgba(171, 171, 173, 0.61)  90%,
             white 90%,
             white 100%);
         width: 95%;
@@ -69,8 +75,8 @@
 
       .line2 {
         background: linear-gradient(to right,
-        rgba(108, 114, 139, 0.61) 0%,
-        rgba(108, 114, 139, 0.61) 80%,
+        rgba(171, 171, 173, 0.61)  0%,
+        rgba(171, 171, 173, 0.61)  80%,
             white 80%,
             white 100%);
         width: 95%;
@@ -84,8 +90,8 @@
 
       .line3 {
         background: linear-gradient(to right,
-        rgba(108, 114, 139, 0.61) 0%,
-        rgba(108, 114, 139, 0.61) 60%,
+        rgba(171, 171, 173, 0.61)  0%,
+        rgba(171, 171, 173, 0.61)  60%,
             white 60%,
             white 100%);
         width: 95%;
@@ -99,8 +105,8 @@
 
       .line4 {
         background: linear-gradient(to right,
-        rgba(108, 114, 139, 0.61) 0%,
-        rgba(108, 114, 139, 0.61) 20%,
+        rgba(171, 171, 173, 0.61)  0%,
+        rgba(171, 171, 173, 0.61)  20%,
             white 20%,
             white 100%);
         width: 95%;
@@ -114,8 +120,8 @@
 
       .line5 {
         background: linear-gradient(to right,
-        rgba(108, 114, 139, 0.61) 0%,
-        rgba(108, 114, 139, 0.61) 35%,
+        rgba(171, 171, 173, 0.61)  0%,
+        rgba(171, 171, 173, 0.61)  35%,
             white 35%,
             white 100%);
         width: 95%;
@@ -131,7 +137,7 @@
   }
 }
 
-.button1 {
+/* .button1 {
   display: inline-block;
   background-color: rgb(49, 53, 71);
   padding: 0.35em 1.2em;
@@ -148,9 +154,9 @@
 .button1:hover {
   color: white;
   /* color: #FC0A9D; */
-  background-color: rgba(108, 114, 139, 0.61);
+ /*  background-color: rgba(108, 114, 139, 0.61);
 }
-
+ */
 
 @media screen and (max-width: 480px) {
   .aboutMeDiv {

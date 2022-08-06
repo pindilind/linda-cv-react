@@ -24,6 +24,12 @@
       flex-direction: column;
       width: 40%;
 
+      .textStyle {
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2rem;
+        color: #a4161a;
+      }
+
       .btnDiv {
         display: flex;
         justify-content: center;
@@ -47,7 +53,7 @@
 
 .button1 {
   display: inline-block;
-  background-color: rgb(49, 53, 71);
+  background-color: #a4161a;
   padding: 0.35em 1.2em;
   border: 0.1em solid #FFFFFF;
   margin: 0 0.3em 0.3em 0;

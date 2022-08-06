@@ -25,6 +25,12 @@
       flex-direction: column;
       width: 40%;
 
+      .textStyle {
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2rem;
+        color: #a4161a;
+      }
+
       .btnDiv-design {
         display: flex;
         justify-content: center;
@@ -49,8 +55,8 @@
 
       .line6 {
         background: linear-gradient(to right,
-        rgb(49, 53, 71) 0%,
-        rgb(49, 53, 71) 40%,
+        #a4161a 0%,
+        #a4161a 40%,
         rgba(108, 114, 139, 0.61) 40%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -64,8 +70,8 @@
 
       .line7 {
         background: linear-gradient(to right,
-        rgb(49, 53, 71) 0%,
-        rgb(49, 53, 71) 50%,
+        #a4161a 0%,
+        #a4161a 50%,
         rgba(108, 114, 139, 0.61) 50%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -79,8 +85,8 @@
 
       .line8 {
         background: linear-gradient(to right,
-        rgb(49, 53, 71) 0%,
-        rgb(49, 53, 71) 45%,
+        #a4161a 0%,
+        #a4161a 45%,
         rgba(108, 114, 139, 0.61) 45%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -94,8 +100,8 @@
 
       .line9 {
         background: linear-gradient(to right,
-        rgb(49, 53, 71) 0%,
-        rgb(49, 53, 71) 20%,
+        #a4161a 0%,
+        #a4161a 20%,
         rgba(108, 114, 139, 0.61)20%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -109,8 +115,8 @@
 
       .line10 {
         background: linear-gradient(to right,
-        rgb(49, 53, 71) 0%,
-        rgb(49, 53, 71) 35%,
+        #a4161a 0%,
+        #a4161a 35%,
         rgba(108, 114, 139, 0.61) 35%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -126,7 +132,7 @@
   }
 }
 
-.button1 {
+/* .button1 {
   display: inline-block;
   background-color: rgb(49, 53, 71);
   padding: 0.35em 1.2em;
@@ -143,11 +149,11 @@
 .button1:hover {
   color: white;
   /* color: #FC0A9D; */
-  background-color: rgba(108, 114, 139, 0.61);
+ /*  background-color: rgba(108, 114, 139, 0.61);
 }
 
 
-
+ */
 
 @media screen and (max-width: 480px) {
   .aboutMeDiv {

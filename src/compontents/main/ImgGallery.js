@@ -30,10 +30,10 @@ export default function QuiltedImageList() {
 
       <div class="aboutMeDivTwo">
         <div class="text-content">
-          <h2>Photo Gallery</h2>
-          <p>I really love photography. Here are some of the photos I took over the years.</p> <br />
-          <p>It is my beloved animals that act as models <BsSuitHeartFill/>. <br />
-          (Except the elephants)</p>
+        <h2 class="textStyle">FotoGalleri</h2>
+          <p>Jag älskar verkligen att fotografera. Här är några av bilderna jag tagit under åren.</p> <br />
+          <p>Det är mina älskade djur som agerar modeller<BsSuitHeartFill/>. <br />
+          (Förutom elefanterna)</p>
         </div>
           <ImageList
             sx={{ width: 700, height: 'auto'}}
