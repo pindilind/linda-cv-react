@@ -1,5 +1,3 @@
-import React from "react";
-
 import "../styles/StyleAboutMe.scss";
 import Selfie from "../assets/miglo.jpg";
 

@@ -1,4 +1,4 @@
-.aboutMeDiv {
+#event4udiv {
   width: 100vw;
   height: 100vh;
   background-color: white;
@@ -8,15 +8,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  .aboutMeDivTwo {
+  
+  #event4udivTwo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
 
-    .text-content {
-      margin-top: -2.5rem;
+    .text-content-event {
+      margin-top: 1rem;
+      margin-left: 3rem;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -30,7 +31,7 @@
         word-break: break-word;
       }
 
-      .textStyle {
+      .textStyleEvent {
         font-family: 'Cedarville Cursive', cursive;
         font-size: 2rem;
         color: #a4161a;
@@ -38,25 +39,10 @@
     
       }
 
-      .btnDiv {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-      }
+ 
     }
 
-    .profile-pic-div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
   
-      #selfie {
-        width: auto;
-        height: 60%;
-      }
-
-    }
-
     .event-pic-div {
       display: flex;
       justify-content: center;
@@ -69,7 +55,7 @@
     
     }
 
-    .pinky-pic-div {
+  /*   .pinky-pic-div {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -79,75 +65,20 @@
         height: auto;
       }
     
-    }
+    } */
   }
 }
 
-.button1 {
-  display: inline-block;
-  background-color: #a4161a;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid #FFFFFF;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 1rem;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #FFFFFF;
-  text-align: center;
-  transition: all 0.2s;
-  font-size: 1rem;
-}
-
-#styleDiv {
-  border-radius: '5px';
-  background-color: #282623;
-  display: flex;
-  overflow: auto;
-  max-width: 50%;
-  box-shadow: none;
-  margin-top: 2rem;
-  padding: 1rem;
-  margin: auto;
-  font-family: 'Montserrat';
-  flex-direction: column;
-  padding: 1rem;
-  height: 60%;
-}
-
-#styleDivAbout {
-  border-radius: '5px';
-  background-color: #282623;
-  display: flex;
-  overflow: auto;
-  max-width: 50%;
-  box-shadow: none;
-  margin-top: 2rem;
-  padding: 1rem;
-  margin: auto;
-  font-family: 'Montserrat';
-  flex-direction: column;
-  padding: 1rem;
-  height: 60%;
-}
-  
-  
-
-.button1:hover {
-  color: white;
-  /* color: #FC0A9D; */
-  background-color: rgb(49, 53, 71);
-}
-
-
 @media screen and (max-width: 480px) {
-  .aboutMeDiv {
+  
+  #event4udiv {
 
-    .aboutMeDivTwo {
+    .event4udivTwo {
       display: flex;
       flex-direction: column;
       text-align: center;
 
-      .text-content {
+      .text-content-event {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -171,7 +102,7 @@
 
   }
 
-  #styleDiv {
+/*   #styleDiv {
     min-width: 90%;
     margin-top: 4rem;
     padding: 0.5rem;
@@ -180,5 +111,8 @@
     min-width: 90%;
     margin-top: 4rem;
     padding: 0.5rem;
-  }
+  } */
+
+
+  
 }

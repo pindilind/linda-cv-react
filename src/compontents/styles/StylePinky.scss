@@ -1,0 +1,91 @@
+#pinkyDiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  font-family: 'Montserrat';
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  .pinkyDivTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .text-content-pinky {
+      margin-left: 3rem;
+      margin-top: -2.5rem;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 40%;
+
+      a {
+        text-decoration: none;
+        color: rgba(175, 177, 186, 0.61);
+        word-break: break-word;
+      }
+
+      .textStylePinky {
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2rem;
+        color: #a4161a;
+
+    
+      }
+
+ 
+    }
+
+    .pinky-pic-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      #pinky {
+        width: 70%;
+        height: auto;
+      }
+    
+    } 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pinkyDiv {
+
+    .pinkyDivTwo {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      .text-content-pinky {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0.8rem;
+        margin: auto;
+      }
+
+      .pinky-pic-div {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+        #pinky {
+          width: 30%;
+        }
+
+      }
+    }
+
+  }
+
+}
