@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/linda-cv-react/static/css/main.5e5da2a6.chunk.css",
-    "main.js": "/linda-cv-react/static/js/main.b2485c34.chunk.js",
-    "main.js.map": "/linda-cv-react/static/js/main.b2485c34.chunk.js.map",
+    "main.css": "/linda-cv-react/static/css/main.b9618be7.chunk.css",
+    "main.js": "/linda-cv-react/static/js/main.c0247b6b.chunk.js",
+    "main.js.map": "/linda-cv-react/static/js/main.c0247b6b.chunk.js.map",
     "runtime-main.js": "/linda-cv-react/static/js/runtime-main.37d6de0c.js",
     "runtime-main.js.map": "/linda-cv-react/static/js/runtime-main.37d6de0c.js.map",
-    "static/js/2.b5293a9a.chunk.js": "/linda-cv-react/static/js/2.b5293a9a.chunk.js",
-    "static/js/2.b5293a9a.chunk.js.map": "/linda-cv-react/static/js/2.b5293a9a.chunk.js.map",
+    "static/js/2.b1ffb588.chunk.js": "/linda-cv-react/static/js/2.b1ffb588.chunk.js",
+    "static/js/2.b1ffb588.chunk.js.map": "/linda-cv-react/static/js/2.b1ffb588.chunk.js.map",
     "index.html": "/linda-cv-react/index.html",
-    "static/css/main.5e5da2a6.chunk.css.map": "/linda-cv-react/static/css/main.5e5da2a6.chunk.css.map",
-    "static/js/2.b5293a9a.chunk.js.LICENSE.txt": "/linda-cv-react/static/js/2.b5293a9a.chunk.js.LICENSE.txt",
+    "static/css/main.b9618be7.chunk.css.map": "/linda-cv-react/static/css/main.b9618be7.chunk.css.map",
+    "static/js/2.b1ffb588.chunk.js.LICENSE.txt": "/linda-cv-react/static/js/2.b1ffb588.chunk.js.LICENSE.txt",
     "static/media/Pexels Videos 1494291.3019f90f.mp4": "/linda-cv-react/static/media/Pexels Videos 1494291.3019f90f.mp4",
     "static/media/elefant1.1e36e1c8.png": "/linda-cv-react/static/media/elefant1.1e36e1c8.png",
+    "static/media/event4u.e77b636a.svg": "/linda-cv-react/static/media/event4u.e77b636a.svg",
     "static/media/hund1.f6fa5b0b.png": "/linda-cv-react/static/media/hund1.f6fa5b0b.png",
     "static/media/hund2.e4d3b88a.png": "/linda-cv-react/static/media/hund2.e4d3b88a.png",
     "static/media/hund3.ea187f62.png": "/linda-cv-react/static/media/hund3.ea187f62.png",
@@ -19,12 +20,14 @@
     "static/media/häst2.4bad9ed6.png": "/linda-cv-react/static/media/häst2.4bad9ed6.png",
     "static/media/katt1.5b41007e.png": "/linda-cv-react/static/media/katt1.5b41007e.png",
     "static/media/katt2.1d5d6241.png": "/linda-cv-react/static/media/katt2.1d5d6241.png",
-    "static/media/miglo.c669597c.jpg": "/linda-cv-react/static/media/miglo.c669597c.jpg"
+    "static/media/miglo.c669597c.jpg": "/linda-cv-react/static/media/miglo.c669597c.jpg",
+    "static/media/pinkyChatPic.dbcc00fd.svg": "/linda-cv-react/static/media/pinkyChatPic.dbcc00fd.svg",
+    "static/media/stripe.2e552cf4.svg": "/linda-cv-react/static/media/stripe.2e552cf4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.37d6de0c.js",
-    "static/js/2.b5293a9a.chunk.js",
-    "static/css/main.5e5da2a6.chunk.css",
-    "static/js/main.b2485c34.chunk.js"
+    "static/js/2.b1ffb588.chunk.js",
+    "static/css/main.b9618be7.chunk.css",
+    "static/js/main.c0247b6b.chunk.js"
   ]
 }
