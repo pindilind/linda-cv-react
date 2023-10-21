@@ -18,12 +18,12 @@ export default function App() {
   return (
     <>
     <Header />
-    <CookieConsent
+    {/* <CookieConsent
             debug={true}
             style={{ background: '#000', fontFamily: 'Gaegu' }}
             buttonStyle={{ background: '#a4161a', color: '#fff', fontFamily: 'Gaegu' }}
             buttonText="OK"
-          >Letar du efter en junior utvecklare? Jag är tillgänglig! :) Keep Reading .</CookieConsent>
+          >Letar du efter en junior utvecklare? Jag är tillgänglig! :) Keep Reading .</CookieConsent> */}
    <AboutMe />
    <Event4U />
    <PinkyChat />
