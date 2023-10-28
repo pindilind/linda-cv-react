@@ -1,5 +1,7 @@
 import React from "react";
 
+import Header from "../header/Header";
+
 import "../styles/StyleSkillsDesign.scss";
 
 
@@ -8,16 +10,17 @@ export default function AboutMe() {
   return (
 
     <div className="skillDesign">
+      <Header />
 
       <div class="skillDivDesign">
         <div class="text-content-skill-design">
-          <h2 class="textStyle">Designfärdigheter</h2>
+          <h2 class="textStyle">- Design skills -</h2>
           <p>
-          Det är de här programmen jag har lärt mig själv. Jag har fått jag tycker det är roligt med design och fotografering så jag har försökt lära mig när jag har hittat tid för det.
+          These are the programs I have taught myself. I've got I think it's fun with design and photography so I've tried to learn when I've found time for it.
           </p>
-    
+
           <div className="btnDiv-design">
-           <p> </p>
+            <p> </p>
           </div>
         </div>
 
@@ -55,7 +58,7 @@ export default function AboutMe() {
             <div class="line9"></div>
           </div> */}
 
-        {/*   <div class="bars">
+          {/*   <div class="bars">
             <div class="info-design">
               <div>MYSQL</div>
               <div>35%</div>

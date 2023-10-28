@@ -1,5 +1,7 @@
+import Header from "../header/Header";
 import "../styles/StyleAboutMe.scss";
 import Selfie from "../assets/miglo.jpg";
+
 
 import WorkplacesModal from "./WorkPlacesModal";
 import School from "./School";
@@ -9,16 +11,37 @@ export default function AboutMe() {
 
     <div className="aboutMeDiv">
 
+      <Header />
       <div class="aboutMeDivTwo">
         <div class="text-content">
-          <h2 class="textStyle">Om Mig</h2>
+          <h2 class="textStyle">- About Me - </h2>
+
+          <h3 class="textStyleTwo">Are you looking for a humble and ambitious frontend developer
+            with a high work ethic?</h3>
+          <h3 class="textStyleTwo">Then it's definitely me you're looking for!</h3>
+
+          <div class="textBox">
           <p>
-            Att fundera kring vad man vill göra när man blir stor kan ibland vara en utmaning. Men 2020 valde jag att söka till Medieinstitutet i Göteborg. Valet av min utbildning Webbutvecklare inom E-handel bygger på att jag som barn hade ett intresse av enklare utveckling men också att vara kreativ.
+            Who am I?
+            My name is Linda, I'm 29 years old and I graduated from Medieinstitutet 2022 -
+            web developer in E-commerce. Now I'm really looking forward to a
+            A new challenge in a new industry.I wanted to study to become a developer because I want to work more creatively
+            and as a child had an interest in easier development. An interest that
+            never cooled down.
 
           </p>
           <p>
-            Utöver mitt intresse för utveckling. Så jag gillar att fotografera, redigera bilder och inredning men umgås också med min sambo och hunden i skogen. Tillsammans har vi nu köpt ett hus vilket känns jättebra. Det kommer att bli en del renovering och trädgårdsarbete i framtiden, vilket jag också tycker är kul.
+            Currently I work at Volvo Cars AB in Gothenburg as a
+            forklift driver and is responsible for delivering materials to the tracks on time.
+            I would describe myself as a positive, meticulous, hard-working person
+            and responsible girl who works well in team
           </p>
+
+          <p>
+            I would describe myself as a positive, meticulous, hard-working person
+            and responsible girl who works well in team
+          </p>
+          </div>
 
           <div className="btnDiv">
             <div><WorkplacesModal /></div>

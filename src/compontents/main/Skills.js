@@ -1,21 +1,24 @@
 import React from "react";
 
+
 import "../styles/StyleSkills.scss";
 
 import WorkplacesModal from "./WorkPlacesModal";
 import School from "./School";
+import Header from "../header/Header";
 
 export default function AboutMe() {
 
   return (
 
     <div className="skill">
+      <Header />
 
       <div class="skillDiv">
         <div class="text-content-skill">
-          <h2 class="textStyle">Programmeringsfärdigheter</h2>
+          <h2 class="textStyle">- Programming skills - </h2>
           <p>
-          Det är de programmen jag har lärt mig hittills under min tid på Medieinstitutet. Procentsatserna som visas på staplarna är en uppskattning av hur långt mina kunskaper har utvecklats i dessa vissa program hittills. Detta avsnitt kommer att uppdateras regelbundet allt eftersom.
+          These are the programs I have learned so far during my time at the Media Institute. The percentages shown on the bars are an estimate of how far my skills have progressed in these particular programs so far. This section will be updated regularly as time goes on.
           </p>
     
           <div className="btnDiv">

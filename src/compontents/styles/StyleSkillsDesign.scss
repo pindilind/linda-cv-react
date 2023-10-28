@@ -2,13 +2,19 @@
   width: 100vw;
   height: 100vh;
   background-color: white;
+  /* background-color: #282623; */
+  background-image: linear-gradient(to bottom, #282623);
+  display: flex;
+  /*  justify-content: center; */
+  align-items: center;
+  flex-direction: column;
   font-family: 'Montserrat';
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #282623;
+  font-weight: bold;
 
   .skillDivDesign {
     display: flex;
@@ -28,7 +34,8 @@
       .textStyle {
         font-family: 'Cedarville Cursive', cursive;
         font-size: 2rem;
-        color: #a4161a;
+        color: black;
+        margin: 0;
       }
 
       .btnDiv-design {
@@ -55,8 +62,8 @@
 
       .line6 {
         background: linear-gradient(to right,
-        #a4161a 0%,
-        #a4161a 40%,
+        black 0%,
+        black 40%,
         rgba(108, 114, 139, 0.61) 40%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -70,8 +77,8 @@
 
       .line7 {
         background: linear-gradient(to right,
-        #a4161a 0%,
-        #a4161a 50%,
+        black 0%,
+        black 50%,
         rgba(108, 114, 139, 0.61) 50%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -85,8 +92,8 @@
 
       .line8 {
         background: linear-gradient(to right,
-        #a4161a 0%,
-        #a4161a 45%,
+        black 0%,
+        black 45%,
         rgba(108, 114, 139, 0.61) 45%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -100,8 +107,8 @@
 
       .line9 {
         background: linear-gradient(to right,
-        #a4161a 0%,
-        #a4161a 20%,
+        black 0%,
+        black 20%,
         rgba(108, 114, 139, 0.61)20%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;
@@ -115,8 +122,8 @@
 
       .line10 {
         background: linear-gradient(to right,
-        #a4161a 0%,
-        #a4161a 35%,
+        black 0%,
+        black 35%,
         rgba(108, 114, 139, 0.61) 35%,
         rgba(108, 114, 139, 0.61) 100%);
         width: 95%;

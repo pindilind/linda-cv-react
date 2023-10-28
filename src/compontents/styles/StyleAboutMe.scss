@@ -2,27 +2,34 @@
   width: 100vw;
   height: 100vh;
   background-color: white;
+  /* background-color: #282623; */
+  background-image: linear-gradient(to bottom, #282623);
+  display: flex;
+  /*  justify-content: center; */
+  align-items: center;
+  flex-direction: column;
   font-family: 'Montserrat';
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-weight: bold;
 
   .aboutMeDivTwo {
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    align-items: center;
 
     .text-content {
-      margin-top: -2.5rem;
       text-align: center;
-      display: flex;
       justify-content: center;
-      align-items: center;
       flex-direction: column;
-      width: 40%;
+      width: 55%;
+
 
       a {
         text-decoration: none;
@@ -32,10 +39,18 @@
 
       .textStyle {
         font-family: 'Cedarville Cursive', cursive;
-        font-size: 2rem;
-        color: #a4161a;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
 
-    
+      .textStyleTwo {
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
+
+      .textBox {
+        font-size: 0.8rem;
+
       }
 
       .btnDiv {
@@ -49,10 +64,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-  
+
       #selfie {
-        width: auto;
-        height: 60%;
+        width: 60%;
       }
 
     }
@@ -66,7 +80,7 @@
         width: 50%;
         height: auto;
       }
-    
+
     }
 
     .pinky-pic-div {
@@ -78,14 +92,14 @@
         width: 60%;
         height: auto;
       }
-    
+
     }
   }
 }
 
 .button1 {
   display: inline-block;
-  background-color: #a4161a;
+  background-color: black;
   padding: 0.35em 1.2em;
   border: 0.1em solid #FFFFFF;
   margin: 0 0.3em 0.3em 0;
@@ -129,8 +143,8 @@
   padding: 1rem;
   height: 60%;
 }
-  
-  
+
+
 
 .button1:hover {
   color: white;
@@ -176,6 +190,7 @@
     margin-top: 4rem;
     padding: 0.5rem;
   }
+
   #styleDivAbout {
     min-width: 90%;
     margin-top: 4rem;

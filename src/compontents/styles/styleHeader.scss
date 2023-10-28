@@ -1,0 +1,41 @@
+.headerTop {
+  z-index: 1;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  flex-direction: row;
+  align-items: center;
+
+  .titlePortfolio {
+    font-size: 1.4rem;
+    /* color: aliceblue; */
+
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+
+    a {
+      text-decoration: none;
+      color: black;
+      word-break: break-word;
+    }
+
+    .titleBox {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 80%;
+      
+    }
+    .iconStyle {
+      font-size: 2rem;
+    }
+
+  }
+}

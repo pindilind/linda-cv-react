@@ -8,49 +8,22 @@
   /*  justify-content: center; */
   align-items: center;
   flex-direction: column;
+  font-family: 'Montserrat';
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  a {
-    text-decoration: none;
-    color: black;
-    word-break: break-word;
+  .underConstruction {
+    background-color: rgba(133, 60, 40, 0.566);
+    font-weight: 900;
+    font-size: 5rem;
+    z-index: 4;
+    rotate: 15deg;
+    margin-top: 15rem;
+    position: absolute;
   }
-
-
-  .headerTop {
-    z-index: 1;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Montserrat';
-    flex-direction: row;
-    align-items: center;
-
-    .titlePortfolio {
-      font-size: 1.2rem;
-      /* color: aliceblue; */
-
-    }
-
-    .row {
-      display: flex;
-      flex-direction: row;
-      font-size: 2rem;
-      justify-content: space-around;
-    }
-  }
-
-  .videoStyle {
-    overflow: 'hidden';
-    filter: 'blur(10px)';
-
-  }
-
-
   .flexAbsolute {
     display: flex;
     /* align-items: center; */
@@ -68,7 +41,7 @@
       z-index: 1;
       margin: 0;
       position: absolute;
-   /*    top: 8px;
+      /*    top: 8px;
       left: 16px; */
 
       h4 {
@@ -105,143 +78,144 @@
 
     .flexSelfie {
       #selfieNew {
+        margin-top: 0;
         width: 50rem;
       }
     }
 
-  
 
-  .arrow {
-    margin-top: 8rem;
-    color: white;
-    font-size: 2rem;
-  }
-
-  .bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-  }
-
-  @keyframes bounce {
-
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-      transform: translateY(0);
-    }
-
-    40% {
-      transform: translateY(-30px);
-    }
-
-    60% {
-      transform: translateY(-15px);
-    }
-  }
-
-  .container {
-    display: inline-block;
-  }
-
-}
-
-
-@media screen and (max-width: 480px) {
-  .header {
-
-
-    h4 {
-      margin-top: 7rem;
-      font-size: 1.3rem;
-      margin-bottom: 0;
-
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 1.7rem;
-      margin-bottom: 0;
-
-      span {
-        font-size: 2rem;
-        margin: 0;
-      }
-    }
-
-    .andImDiv {
-      margin-top: -1rem;
-      width: 100%;
-
-      h3 {
-        text-align: center;
-        color: rgb(49, 53, 71);
-        font-family: 'Gaegu', cursive;
-        font-size: 1rem;
-      }
-
-      h2 {
-        font-size: 1rem;
-        padding: 4px 12px;
-
-
-
-      }
-
-      @keyframes typewriter {
-        from {
-          width: 0%;
-        }
-
-        to {
-          width: 102%;
-        }
-
-
-      }
-
-    }
-
-
-    .futureCollege {
-      display: inline-block;
-      font-size: 2rem;
-      margin-top: 1rem;
-    }
 
     .arrow {
-      margin-top: 7rem;
+      margin-top: 8rem;
+      color: white;
       font-size: 2rem;
     }
 
+    .bounce {
+      -moz-animation: bounce 2s infinite;
+      -webkit-animation: bounce 2s infinite;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+
+      0%,
+      20%,
+      50%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+
+      40% {
+        transform: translateY(-30px);
+      }
+
+      60% {
+        transform: translateY(-15px);
+      }
+    }
+
+    .container {
+      display: inline-block;
+    }
+
   }
-}
 
 
-#navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40rem;
-}
+  @media screen and (max-width: 480px) {
+    .header {
+
+
+      h4 {
+        margin-top: 7rem;
+        font-size: 1.3rem;
+        margin-bottom: 0;
+
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.7rem;
+        margin-bottom: 0;
+
+        span {
+          font-size: 2rem;
+          margin: 0;
+        }
+      }
+
+      .andImDiv {
+        margin-top: -1rem;
+        width: 100%;
+
+        h3 {
+          text-align: center;
+          color: rgb(49, 53, 71);
+          font-family: 'Gaegu', cursive;
+          font-size: 1rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+          padding: 4px 12px;
 
 
 
-/* ingen kod som används ... */
+        }
 
-/* .andImDiv {
+        @keyframes typewriter {
+          from {
+            width: 0%;
+          }
+
+          to {
+            width: 102%;
+          }
+
+
+        }
+
+      }
+
+
+      .futureCollege {
+        display: inline-block;
+        font-size: 2rem;
+        margin-top: 1rem;
+      }
+
+      .arrow {
+        margin-top: 7rem;
+        font-size: 2rem;
+      }
+
+    }
+  }
+
+
+  #navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+  }
+
+
+
+  /* ingen kod som används ... */
+
+  /* .andImDiv {
       z-index: 1;
       display: flex;
 
 
       /* flex-direction: row; */
-/* align-items: center;
+  /* align-items: center;
       justify-content: center; */
-/* width: 80%; */
+  /* width: 80%; */
 
-/* h3 {
+  /* h3 {
         text-align: center;
         color: rgb(49, 53, 71);
         font-family: 'Gaegu', cursive;
@@ -257,10 +231,10 @@
         overflow: hidden;
         border-right: 2px solid white;
       } */
-/* }
+  /* }
  */
 
-/*  .futureCollege {
+  /*  .futureCollege {
        display: inline-block;
        color: rgb(49, 53, 71);
        font-size: 2.5rem;
@@ -268,10 +242,11 @@
        margin-top: 1rem;
      } */
 
-      /* <div className="andImDiv">
+  /* <div className="andImDiv">
         <div><h3>And I'm a </h3></div>
         <div><h2>frontend developer who is looking for a job</h2></div>
       </div> */
 
 
-            /*  <h4 className="futureCollege">Maybe I'm your future colleague?</h4> */}
+  /*  <h4 className="futureCollege">Maybe I'm your future colleague?</h4> */
+}
