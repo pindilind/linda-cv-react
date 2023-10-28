@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/linda-cv-react/static/css/main.b9618be7.chunk.css",
-    "main.js": "/linda-cv-react/static/js/main.c0247b6b.chunk.js",
-    "main.js.map": "/linda-cv-react/static/js/main.c0247b6b.chunk.js.map",
+    "main.css": "/linda-cv-react/static/css/main.0640bc67.chunk.css",
+    "main.js": "/linda-cv-react/static/js/main.9e091f59.chunk.js",
+    "main.js.map": "/linda-cv-react/static/js/main.9e091f59.chunk.js.map",
     "runtime-main.js": "/linda-cv-react/static/js/runtime-main.37d6de0c.js",
     "runtime-main.js.map": "/linda-cv-react/static/js/runtime-main.37d6de0c.js.map",
-    "static/js/2.b1ffb588.chunk.js": "/linda-cv-react/static/js/2.b1ffb588.chunk.js",
-    "static/js/2.b1ffb588.chunk.js.map": "/linda-cv-react/static/js/2.b1ffb588.chunk.js.map",
+    "static/js/2.5e838c35.chunk.js": "/linda-cv-react/static/js/2.5e838c35.chunk.js",
+    "static/js/2.5e838c35.chunk.js.map": "/linda-cv-react/static/js/2.5e838c35.chunk.js.map",
     "index.html": "/linda-cv-react/index.html",
-    "static/css/main.b9618be7.chunk.css.map": "/linda-cv-react/static/css/main.b9618be7.chunk.css.map",
-    "static/js/2.b1ffb588.chunk.js.LICENSE.txt": "/linda-cv-react/static/js/2.b1ffb588.chunk.js.LICENSE.txt",
+    "static/css/main.0640bc67.chunk.css.map": "/linda-cv-react/static/css/main.0640bc67.chunk.css.map",
+    "static/js/2.5e838c35.chunk.js.LICENSE.txt": "/linda-cv-react/static/js/2.5e838c35.chunk.js.LICENSE.txt",
     "static/media/Pexels Videos 1494291.3019f90f.mp4": "/linda-cv-react/static/media/Pexels Videos 1494291.3019f90f.mp4",
     "static/media/elefant1.1e36e1c8.png": "/linda-cv-react/static/media/elefant1.1e36e1c8.png",
     "static/media/event4u.e77b636a.svg": "/linda-cv-react/static/media/event4u.e77b636a.svg",
+    "static/media/helloo.d50811fa.svg": "/linda-cv-react/static/media/helloo.d50811fa.svg",
     "static/media/hund1.f6fa5b0b.png": "/linda-cv-react/static/media/hund1.f6fa5b0b.png",
     "static/media/hund2.e4d3b88a.png": "/linda-cv-react/static/media/hund2.e4d3b88a.png",
     "static/media/hund3.ea187f62.png": "/linda-cv-react/static/media/hund3.ea187f62.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.37d6de0c.js",
-    "static/js/2.b1ffb588.chunk.js",
-    "static/css/main.b9618be7.chunk.css",
-    "static/js/main.c0247b6b.chunk.js"
+    "static/js/2.5e838c35.chunk.js",
+    "static/css/main.0640bc67.chunk.css",
+    "static/js/main.9e091f59.chunk.js"
   ]
 }
