@@ -28,7 +28,7 @@ export default function App() {
       
       <Switch>
     
-        <Route exact path="/"> 
+        <Route exact path="/linda-cv-react"> 
           <StartPage />
          </Route> 
 
