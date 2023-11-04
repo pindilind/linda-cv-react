@@ -36,11 +36,6 @@ export default function AboutMe() {
             I would describe myself as a positive, meticulous, hard-working person
             and responsible girl who works well in team
           </p>
-
-          <p>
-            I would describe myself as a positive, meticulous, hard-working person
-            and responsible girl who works well in team
-          </p>
           </div>
 
           <div className="btnDiv">

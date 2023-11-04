@@ -16,7 +16,7 @@ export default function AboutMe() {
         <div class="text-content-skill-design">
           <h2 class="textStyle">- Design skills -</h2>
           <p>
-          These are the programs I have taught myself. I've got I think it's fun with design and photography so I've tried to learn when I've found time for it.
+          These are the programs I have taught myself. I think it's fun with design and photography so I've tried to learn when I've found time for it.
           </p>
 
           <div className="btnDiv-design">
