@@ -14,6 +14,7 @@ import Stripe from "./main/Stripe";
 import PinkyChat from "./main/PinkyChat";
 import Skills from "./main/Skills";
 import DesignSkills from "./main/DesignSkills";
+import MyProjects from "./main/MyProjects"
 import ImgGallery from "./main/ImgGallery";
 
 import Footer from "./footer/Footer";
@@ -50,6 +51,9 @@ export default function App() {
        <Skills /> 
         </Route>
        
+        <Route exact path="/MyProjects"> 
+       <MyProjects /> 
+        </Route>
        {/* 
    <Event4U />
    <PinkyChat />

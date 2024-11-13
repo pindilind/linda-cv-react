@@ -32,7 +32,7 @@ export default function StartPage() {
           /> */}
 
         </div>
-<div className="underConstruction">UNDER CONSTRUCTION</div>
+{/* <div className="underConstruction">UNDER CONSTRUCTION</div> */}
         <div className="flexMiddle">
           <div className="flexAbsolute">
             <div className="flexName">

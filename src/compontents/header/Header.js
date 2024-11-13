@@ -53,7 +53,7 @@ export default function Header() {
               textDecoration: 'none',
               fontSize: '0.8rem',
               fontWeight: 'bold'
-            }} to="/">
+            }} to="/MyProjects">
               MY PROJECTS
             </Link>
 
