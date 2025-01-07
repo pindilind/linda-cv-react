@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { FaArrowDown } from "react-icons/fa";
@@ -13,9 +14,11 @@ import "../styles/StyleStart.scss";
 import "../styles/Video.scss";
 import SelfieNew from "../assets/helloo.svg"
 import Header from "../header/Header"
-
+import PopUp from "../PopUp";
 
 export default function StartPage() {
+
+  const [buttonPopup, setButtonPopup] = useState(true);
 
   return (
     <>
@@ -38,6 +41,10 @@ export default function StartPage() {
             <div className="flexName">
               <div><h1>Linda Gustafsson</h1></div>
               <div><h4>FRONT-END DEVELOPER</h4></div>
+              <button onClick={() => setButtonPopup(true)}>Read news about me!</button>
+              <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}>
+               
+              </PopUp>
             </div>
 
             <div className="flexSelfie">
