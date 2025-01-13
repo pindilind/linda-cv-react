@@ -1,6 +1,6 @@
 import Header from "../header/Header";
 import "../styles/StyleAboutMe.scss";
-import Selfie from "../assets/miglo.jpg";
+import Selfie from "../assets/me2.jpg";
 
 
 import WorkplacesModal from "./WorkPlacesModal";

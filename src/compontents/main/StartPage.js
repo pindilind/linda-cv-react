@@ -18,7 +18,7 @@ import PopUp from "../PopUp";
 
 export default function StartPage() {
 
-  const [buttonPopup, setButtonPopup] = useState(true);
+  const [buttonPopup, setButtonPopup] = useState(false);
 
   return (
     <>

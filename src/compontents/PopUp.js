@@ -1,4 +1,3 @@
-import React from 'react'
 import "./styles/StylePopUp.scss";
 
 function PopUp(props) {
